@@ -32,13 +32,13 @@ plate = json.load(Helps)
 #========================================================================
 #========================================================================
 print("\n               [SB]")
-me = LINE("society.banten@gmail.com","Denjaka77")
+me = LNE("")
 me.log("Auth Token : " + str(me.authToken))
 meProfile = me.getProfile()
 meSettings = me.getSettings()
 meM = meProfile.mid
 print("\n              [ANTI JS]")
-jss = LINE("u9a9e4af8200688d3185cd6dd34d27e32:aWF0OiAxNTYzNTAwOTQ2OTE2Cg==..x8U9oBjm2HxIa6xPafvgRzB/KWA=",appName="IOS\t8.19.1\tEater\t1")
+jss = LINE("",appName="IOS\t8.19.1\tEater\t1")
 jss.log("Auth Token : " + str(jss.authToken))
 jssProfile = jss.getProfile()
 Antijs = jssProfile.mid
