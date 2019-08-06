@@ -1,8 +1,8 @@
 from thrift.transport import TTransport,TSocket,THttpClient,TTransport,TZlibTransport
 from thrift.protocol import TCompactProtocol,TMultiplexedProtocol,TProtocol
 from thrift.server import THttpServer,TServer,TProcessPoolServer
-import InexBots
-from InexBots import *
+import lineX
+from lineX import *
 from akad.ttypes import *
 from thrift.Thrift import *
 from thrift.TMultiplexedProcessor import *
@@ -471,7 +471,7 @@ def serviceX(rank):
                         InexBots["blacklist"][Musuhku] = True
                         jss.leaveGroup(Rumahku)
                         me.inviteIntoGroup(Rumahku,[Antijs])
-                        me.inviteIntoGroup(Rumahku,[Owner])
+                        me.inviteIntoGroup(Rumahku,[Temanku])
                     else:
                         pass
                 if Temanku in Antijs:
@@ -545,6 +545,8 @@ def serviceX(rank):
                         jss.inviteIntoGroup(Rumahku,[Temanku])
                         jss.kickoutFromGroup(Rumahku,[Musuhku])
                         me.acceptGroupInvitation(Rumahku)
+                        jss.leaveGroup(Rumahku)
+                        me.inviteIntoGroup(Rumahku,[Temanku])
                     except:
                         jss.acceptGroupInvitation(Rumahku)
                         Z = jss.getGroup(Rumahku)
