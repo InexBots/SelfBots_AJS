@@ -1,7 +1,7 @@
 {
     "helpgrup": {
         "type": "flex",
-        "altText": "TOLOOOOONGGGG!!",
+        "altText": "AKH TUKANG NIPU LUH!!",
         "contents": {
             "type": "bubble",
             "styles": {
@@ -213,8 +213,8 @@
                                 "flex": 1,
                                 "action": {
                                     "type": "uri",
-                                    "label": "🆃🅴🅻🅴🆅🅸🆂🅸 🅾🅽🅻🅸🅽🅴",
-                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Televisi"
+                                    "label": "🅷🅴🅻🅿 🆅🅾🅸🅲🅴",
+                                    "uri": "line://app/1623679774-k9nBDB6b?type=text&text=Helpvoice"
                                 }
                             },
                             {
