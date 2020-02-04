@@ -1,8 +1,8 @@
 from thrift.transport import TTransport,TSocket,THttpClient,TTransport,TZlibTransport
 from thrift.protocol import TCompactProtocol,TMultiplexedProtocol,TProtocol
 from thrift.server import THttpServer,TServer,TProcessPoolServer
-import lineX
-from lineX import *
+import InexBots
+from InexBots import *
 from akad.ttypes import *
 from thrift.Thrift import *
 from thrift.TMultiplexedProcessor import *
